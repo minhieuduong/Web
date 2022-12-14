@@ -1,0 +1,164 @@
+body {
+	padding: 40px;
+	margin: 0px;
+	font-family: 'Arial', sans-serif;
+	background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+	background-repeat:no-repeat; //lap lai
+	background-origin:border-box;
+	background-size: cover;
+}
+
+.container {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.container img {
+    margin-left: 0px;
+
+}
+
+div.form-student{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 40px;
+    padding: 10px;
+    float: left;
+    width: 550px;
+    height: 310px;
+}
+
+div.form-student input[type="text"] {
+    width: 220px;
+    padding: 5px 8px;
+    margin-bottom: 15px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+div.form-student label {
+	width: 130px;
+    float: left;
+    padding-top: 5px;
+}
+
+div.list-student {
+	border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 40px;
+    padding: 15px;
+    float: left;
+    width: 750px;
+}
+
+div.list-student table {
+    width: 750px;
+    border: 1px solid #cccccc;
+}
+
+div.list-student table tr {
+    font-size: 13px;
+    height: 30px;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+    text-align:center;
+}
+
+div.list-student table tr#first-row {
+    background-color: #909090;
+    color: #ffffff;
+    font-size: 13.5px;
+    height: 40px;
+    text-align: center;
+    cursor: initial;
+}
+
+
+div.list-student table tr#first-row td {
+    border-right: 1px solid #cccccc;
+}
+
+div.list-student table tr td#col-header-order {
+    width: 40px;
+}
+
+div.list-student table tr td#col-header-email {
+    width: 170px;
+}
+
+div.list-student table tr td#col-header-hometown {
+    width: 87px;
+}
+
+
+h3 {
+    color: #ffff;
+    text-align: center;
+    background: #00000;
+    padding: 0px;
+    margin-top: 0px;
+    width: 280px;
+}
+div.form-student label {
+	width: 100px;
+	float: left;
+}
+
+div.form-student button#btnSaveC {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 20px;
+    width: 140px;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+div.form-student button#btnSaveE {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 20px;
+    width: 140px;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.error {
+	color: red;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #fffff;
+    border-style:ridge;
+}
+ 
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+.topnav a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.list-student table {
+	width: 750px;
+}
+
